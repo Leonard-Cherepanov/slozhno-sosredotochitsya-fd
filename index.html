@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="dark light" /> <!-- шаг №2 -->
     <title>Сложно сосредоточиться</title>
-    <!-- шаг №2 -->
+    <script src="./scripts/script.js"></script>
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
-    <!-- шаг №2 -->
-    <script src="./scripts/script.js"></script>
+    <meta name="color-scheme" content="dark light" />
   </head>
   <body class="page">
     <header class="header decorated-zone">
@@ -52,12 +52,14 @@
         Или почему нам так сложно сконцентрироваться, особенно когда очень надо</p>
       </div>
     </header>
-    <main class="content">
+    <main>
       <section class="content-section">
-        <h2 class="content-section__title">Почему сосредоточиться так сложно</h2>
+        <h2 class="content-section__title">
+          Почему сосредоточиться так сложно
+        </h2>
         <div class="content-section__content">
           <article class="content-section__card">
-            <h3 class="content-section__card-title title-decor">Многозадачность</h3>
+            <h3 class="card-title title-decor">Многозадачность</h3>
             <p class="content-section__card-text">
               Особенно сложно сосредоточиться, когда задач много и все 
               они — важные. Где же легендарная многозадачность, когда она 
@@ -65,8 +67,8 @@
               А дело в том, что её просто не существует. Исследователи
               <a href="https://dana.org/news-and-insights/"
                 target="_blank" 
-                class="content-section__card-text-link">выяснили</a>
-              , что мозгу тяжело концентрироваться даже на двух делах 
+                class="content-section__card-text-link">выяснили</a>,
+               что мозгу тяжело концентрироваться даже на двух делах 
               одновременно. А когда в поле внимания попадает несколько 
               важных задач, организм паникует и выделяет кортизол и 
               адреналин — «гормоны стресса». Из-за этого мы работаем 
@@ -74,7 +76,7 @@
             </p>
           </article>
           <article class="content-section__card">
-            <h3 class="content-section__card-title title-decor">Дофамин</h3>
+            <h3 class="card-title title-decor">Дофамин</h3>
             <p class="content-section__card-text">
               С гормонами стресса всё понятно, но дальше — ещё интереснее. 
               В нашей невозможности сосредоточиться замешана и полная 
@@ -93,7 +95,7 @@
         <h2 class="content-section__title">Что снижает концентрацию внимания?</h2>
         <div class="content-section__content">
           <article class="content-section__card">
-            <h3 class="content-section__card-title title-decor">Многозадачность</h3>
+            <h3 class="card-title title-decor">Многозадачность</h3>
             <p class="content-section__card-text">
               Как концентрация может снижаться из-за… концентрации? 
               Любая стрессовая ситуация (и резко меняющийся мир в целом) 
@@ -105,7 +107,7 @@
             </p>
           </article>
           <article class="content-section__card">
-            <h3 class="content-section__card-title title-decor">Еда</h3>
+            <h3 class="card-title title-decor">Еда</h3>
             <p class="content-section__card-text">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно 
               доставляют в мозг энергию и помогают ему лучше работать. Но 
@@ -116,7 +118,7 @@
             </p>
           </article>
           <article class="content-section__card">
-            <h3 class="content-section__card-title title-decor">Гаджеты</h3>
+            <h3 class="card-title title-decor">Гаджеты</h3>
             <p class="content-section__card-text">
               Да-да, это та самая ситуация, когда на экране ноутбука — код, 
               в наушниках — подкаст, а на компьютере фоном — ещё и видео 
@@ -133,7 +135,7 @@
       <section class="content-section">
         <h2 class="content-section__title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
         <div class="content-section__content">
-          <h3 class="content-section__card-title title-decor">5 простых (на самом деле не очень) советов</h3>
+          <h3 class="card-title title-decor">5 простых (на самом деле не очень) советов</h3>
           <article class="content-section__card">
             <h4 class="content-section__card-subtitle title-decor">Представьте небо и облака</h4>
             <p class="content-section__card-text">
@@ -162,10 +164,12 @@
             <h4 class="content-section__card-subtitle title-decor">Прогуляйтесь</h4>
             <p class="content-section__card-text">
               Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
-              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
+              <a
+                href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
                 target="_blank"
-                class="content-section__card-text-link">показал</a>
-                , что созерцание природы повышает концентрацию, в то время 
+                class="content-section__card-text-link"
+                >показал</a>,
+                 что созерцание природы повышает концентрацию, в то время 
                 как после просмотра городских пейзажей она наоборот понижается. 
                 Можно совместить прогулку с физическими упражнениями или 
                 бегом — так в мозг поступит ещё больше кислорода и он будет 
@@ -193,36 +197,36 @@
           </article>
         </div>
       </section>
-      <section class="images-section">
-        <h2 class="images-section__card-title title-decor">А можно в картинках?</h2>
+      <section class="img-section">
+        <h2 class="card-title title-decor">А можно в картинках?</h2>
         <img
-          class="images-section__image images-section__image_sunset"
+          class="img-section__img img-section__img_sunset"
           src="./images/sunset.png"
-          alt="картинка закат, горы, небо"
+          alt="изображение заката и неба"
           loading="lazy"
         />
         <img
-          class="images-section__image images-section__image_ice-cream"
+          class="img-section__img img-section__img_ice-cream"
           src="./images/ice-cream.png"
-          alt="картинка фруктовое мороженное"
+          alt="изображение тарелки со сладостями"
           loading="lazy"
         />
         <img
-          class="images-section__image images-section__image_tape"
+          class="img-section__img img-section__img_tape"
           src="./images/tape.png"
-          alt="картинка магнитная кассета"
+          alt="изображение кассеты"
           loading="lazy"
         />
         <img
-          class="images-section__image images-section__image_books"
+          class="img-section__img img-section__img_books"
           src="./images/books.png"
-          alt="картинка книги"
+          alt="изображение стопки книг"
           loading="lazy"
         />
         <img
-          class="images-section__image images-section__image_street"
+          class="img-section__img img-section__img_street"
           src="./images/street.png"
-          alt="картинка городская улица"
+          alt="изображение улицы города"
           loading="lazy"
         />
       </section>
