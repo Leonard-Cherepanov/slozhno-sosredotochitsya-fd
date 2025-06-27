@@ -257,7 +257,12 @@
 
   .content-section {
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 35px;
+    column-gap: 30px;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px; */
+  }
+  .no-wrap { 
+    white-space: nowrap;
   }
 
   .content-section__title {
